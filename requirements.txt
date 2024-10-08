@@ -4,8 +4,11 @@ docling-core==1.7.1
 docling-ibm-models==2.0.0
 docling-parse==1.4.1
 PyMuPDF==1.24.11
-openparse==0.6.0
+"openparse[ml]"==0.6.0
 pdfminer.six==20240706
 pycparser==2.22
 pypdf==5.0.1
 regex==2024.9.11
+safetensors==0.4.5 
+tokenizers==0.20.0 
+transformers==4.45.2
