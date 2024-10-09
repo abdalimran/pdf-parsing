@@ -1,0 +1,16 @@
+,Algorithm 1: Consumer Engagement Estimation,
+0,"Result: Total Consumer Engagement Score product list ← f rom db ; f acebook data , twitter data , instagram data , web data ← f rom db ; social data ← None ; social engagement score ← None ; total engagment score ← None ; data in ( f acebook data twitter data instagram data)",
+1,for do social data . weighted engagement score ← α × likes + β × comments + (1 . $^{0}$- end,
+2,"social engagement score ← social data . groupby ([ product id , post timestamp ]) . sum ( weighted engagement score );",
+3,for product id in product list do,
+4,", . scaled engagement score ← min max scaler ( weighted engagement score , range = (0 , 100));",
+5,social engagement score [ product id post timestamp ],
+6,"total engagment score [ product id ,",
+7,for product id in product list do,
+8,"web data [ product id , timestamp ] . trend value +",
+9,"social engagement score [ product id , post timestamp",
+10,,post timestamp ] ←
+11,,]
+12,,scaled engagement score ;
+13,,.
+14,end,
